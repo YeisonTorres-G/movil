@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Para iniciar se define el tipo de contenedor en este caso LinearLayout
+     que debe abrir con parentesis < triangular y cerrar con </ al final -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Iniciar Sesion"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/sena"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        app:emojiCompatEnabled="false" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        app:srcCompat="@drawable/logosena" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edt_email"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edt_pass"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/sena"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:singleLine="false"
+        android:soundEffectsEnabled="false"
+        android:text="Ingresar"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:iconTintMode="add"
+        app:rippleColor="@color/sena"
+        app:toggleCheckedStateOnClick="true" />
+
+    <Button
+        android:id="@+id/edt_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/google"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:text="Ingresar Con Google" />
+
+    <Button
+        android:id="@+id/edt_cuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0288D1"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:text="Crear Cuenta " />
+
+    <TextView
+        android:id="@+id/r_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Contraseña"
+        android:textAlignment="center" />
+
+</LinearLayout>
+
+    <!-- Cierre del contenedor LinearLayout -->

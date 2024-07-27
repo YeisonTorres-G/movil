@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyAppOne</string>
+
+    <string name="t1">Nombre de la Aplicacion</string>
+
+
+    <string name="login">Iniciar Sesion</string>
+    <string name="edt_email">Ingresar Su Correo</string>
+    <string name="edt_pass">ingresar Contraseña</string>
+    <string name="edt_login">Ingresar</string>
+    <string name="edt_gmail">Correo Gmail</string>
+    <string name="edt_cuenta">Crear Cuenta</string>
+    <string name="r_pass">Recuperar Contraseña</string>
+
+    <string name="edt_name">Ingrese Su Nombre</string>
+    <string name="edt_apell">Ingresar Apellido</string>
+    <string name="edt_email2">Ingresar Correo</string>
+    <string name="edt_pass2">Ingresar Contraseña</string>
+    <string name="edt_cpass">Confirmar Contraseña</string>
+    <string name="b_reg">Registrar</string>
+
+
+    <string name="r_pass2">Ingresar Correo </string>
+    <string name="recuperar">Recuperar</string>
+</resources>
